@@ -19,11 +19,12 @@ h1 {
   font-weight: 300;
 }
   
-img {
-  max-width: 40%;
+svg {
+  width: 50px;
   padding: 20px;
   display: block;
   margin: 0 auto;
+  fill: #fff;
 }
 
 form {
@@ -36,11 +37,15 @@ form {
   cursor: pointer;
   display: block;
   position: relative;
-  background-color: #676264;
+  background-color: #400157;
   padding: 20px 80px;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
+  color: aliceblue;
+  font-family: 'Space Mono', monospace;
+font-size: 30px;
+text-shadow: black 6px 6px 6px;
 }
   
 .btn a {
@@ -54,7 +59,7 @@ form {
 }
 
 .btn:hover {
-  box-shadow: 0 4px #2E282A;
+  box-shadow: 0 4px #3a034c;
   top: 2px; 
 }
 

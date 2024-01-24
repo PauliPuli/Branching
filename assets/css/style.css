@@ -1,5 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
 body {
-  background: #342E37;
+  fill-opacity: 80% , #270026 ;
+  background-image: url(/assets/img/andy-holmes-rCbdp8VCYhQ-unsplash.jpg);
   }
 
 .container {
@@ -57,3 +62,16 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+header {
+  padding: 50px;
+  height: 600px;
+}
+footer {
+  background-color: #360c47;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  padding: 50px;
+  text-align: center;
+  vertical-align: baseline;
+}
